@@ -31,7 +31,7 @@ export default function SidebarWithHeader({ children }) {
         size="full"
       >
         <DrawerContent>
-          <SidebarContent onClose={onClose} />
+          <SidebarContent onClose={onClose} linkItems={LINK_ITEMS} />
         </DrawerContent>
       </Drawer>
       {/* mobilenav */}
